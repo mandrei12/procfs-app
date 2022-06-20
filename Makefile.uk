@@ -1,0 +1,3 @@
+$(eval $(call addlib,appprocfs))
+
+APPPROCFS_SRCS-y += $(APPPROCFS_BASE)/main.c
